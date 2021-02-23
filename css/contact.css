@@ -1,0 +1,24 @@
+.contact{width: 100%;background-color: #f9a392;display: flex;
+    justify-content: space-evenly;align-items: center;padding: 10px 0px;}
+.suscribe{background-color: #f9a392;width: 20%;padding: 20px;
+    display: flex;padding: 10px;box-sizing: border-box;flex-wrap: wrap;
+    justify-content: center;align-items: center;}
+    label{padding: 10px 0px;font-family: 'Raleway';font-size: 20px;
+        color: white;}
+.btnSuscribe{background-color: #B93DFF ;color: white;border: 1px solid white;}
+.txtSuscribe,.btnSuscribe{display: block;margin-top: 5px;padding: 10px 5px;}
+.txtSuscribe{background-image: url(../Resources/contact_icon/envelope.svg);
+background-size: 30px 30px;background-repeat: no-repeat;background-position-y: center;
+background-position-x: 4px;padding-left: 40px;}
+.container-contact-image{display: flex;background-color: #f9a392;width: 40%;justify-content: space-evenly;}
+.icon-contact{width: 50px;height: 50px;background-size: 50px 50px;}
+.facebook{background-image: url(../Resources/contact_icon/facebook.svg);}
+.twiter{background-image: url(../Resources/contact_icon/twitter.svg);}
+.instagram{background-image: url(../Resources/contact_icon/instagram.svg);}
+.gitHub{background-image: url(../Resources/contact_icon/github.svg)};
+
+@media Screen and (max-width:600px)
+{
+    label{font-size: 15px;}
+    .container-contact-image{display: flex;flex-wrap: wrap;}
+}

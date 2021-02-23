@@ -18,7 +18,7 @@
         background-repeat: no-repeat;background-size: 100px 80px;}
 .ico4{background-image: url(../Resources/varita-de-incienso-sobre-una-base.svg);width: 100px;height: 80px;
         background-repeat: no-repeat;background-size: 100px 80px;}
-@media Screen and (max-width:900px)
+@media Screen and (max-width:1220px)
 {
     .container-img-service{width: 100%;}
     .Services{flex-wrap: wrap;}
