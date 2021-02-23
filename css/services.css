@@ -1,0 +1,31 @@
+.Services{display: flex;}
+.container-img-service{display: flex;}
+.list-services {display: grid;grid-template-columns: repeat(2,minmax(300px,1fr));}
+.s{display: flex;border: 1px solid #e0e0e0;flex-wrap: wrap;
+    justify-content: center;align-items: center;text-align: center;}
+.s:hover{background-color: #f9a392;}
+.s:hover>*{color: white;}
+.service-title{width: 100%;font-family: 'Mr De Haviland';font-size: 35px;
+    font-weight: 400;color: #f9a392;}
+.about-service{color: #9e9e9e;}
+
+
+.ico{background-image: url(../Resources/toalla.svg);width: 100px;height: 80px;
+    background-repeat: no-repeat;background-size: 100px 80px}
+.ico2{background-image: url(../Resources/piedras-minerales.svg);width: 100px;height: 80px;
+    background-repeat: no-repeat;background-size: 100px 80px;}
+.ico3{background-image: url(../Resources/masaje-y-spa.svg);width: 100px;height: 80px;
+        background-repeat: no-repeat;background-size: 100px 80px;}
+.ico4{background-image: url(../Resources/varita-de-incienso-sobre-una-base.svg);width: 100px;height: 80px;
+        background-repeat: no-repeat;background-size: 100px 80px;}
+@media Screen and (max-width:900px)
+{
+    .container-img-service{width: 100%;}
+    .Services{flex-wrap: wrap;}
+    .imgServices{width: 100%;height: auto;}
+}
+
+@media Screen and (max-width:600px)
+{
+    .list-services{grid-template-columns: 1fr;}
+}
