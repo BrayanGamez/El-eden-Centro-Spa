@@ -34,12 +34,22 @@
         </div>
         <ul class="menu">
             <li>
-                <a href="#" class="menu-home" onclick="slideLine(event)">Inicio</a>
+                <a href="#" class="menu-home" onclick="slideLine(event)" onmouseover="viewSubMenu(event)" onmouseout="hideSubMenu(event)">Inicio</a>
                 <div class="line l1"></div>
+                <ul class="subMenuHome">
+                    <li class="sub"><a class="sh" href="#Ofertas">Ofertas</a></li>
+                    <li class="sub"><a class="sh" href="#typeMasajes">Tipos de masajes</a></li>
+                    <li class="sub"><a class="sh" href="#someProducts">Productos principales</a></li>
+                </ul>
             </li>
             <li>
-                <a href="#" class="menu-shop" onclick="slideLine(event)">Tienda</a>
+                <a href="#welcom" class="menu-shop" onclick="slideLine(event)">Tienda</a>
                 <div class="line l2"></div>
+                <ul class="subMenuShop">
+                    <li class="sub"><a class="sh" >Pedicura</a></li>
+                    <li class="sub"><a class="sh">Cremas y lociones</a></li>
+                    <li class="sub"><a class="sh">Toallas y jabones</a></li>
+                </ul>
             </li>
             <li>
                 <a href="#" class="menu-features" onclick="slideLine(event)">Caracteristicas</a>
@@ -62,7 +72,8 @@
         </div>
         </div>
     </section>
-    <section class="welcome">
+    <section class="welcome" id="welcom" >
+        <a href="" name="Ofertas"></a>
         <div class="info-welcome">
             <div class="wrapper-info">
                 <p class="title-welcome">Bienvenido a nuestro</p>
@@ -101,6 +112,7 @@
         </article>
     </section>
     <section class="Services">
+        <a href="" name="typeMasajes"></a>
         <div class="container-img-service">
             <img src="Resources/services.jpg" alt="Services" class="imgServices">
         </div>
@@ -137,7 +149,8 @@
             </div>
         </div>
     </section>
-    <section class="products">
+    <section class="products" >
+        <a href="" name="someProducts"></a>
         <div class="container-title-products">
             <p class="title-product-1">Desde la tienda</p>
             <p class="title-product-2">Nuestros productos</p>
